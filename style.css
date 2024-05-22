@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tambahkan gaya tambahan untuk setiap bagian */
+.skill h2, .bahasa h2 {
+    color: #007bff;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 2px solid #007bff;
+}
+
+.skill ul, .bahasa ul {
+    padding-left: 20px;
+}
+
+.skill li, .bahasa li {
+    margin-bottom: 8px;
+}
+
+.skill h3, .bahasa h3 {
+    color: #555;
+}
